@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Biryani Heritage",
+    "slug": "TheBriyaniHeritageApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/restaurant/logo.png",
+    "scheme": "thebriyaniheritageapp",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rimjhimmishra.TheBriyaniHeritageApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#51001F",
+        "foregroundImage": "./assets/restaurant/logo.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rimjhimmishra.TheBriyaniHeritageApp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/restaurant/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#51001F",
+          "image": "./assets/restaurant/logo.png",
+          "imageWidth": 120
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
